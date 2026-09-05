@@ -36,3 +36,5 @@ jobs:
           name: kg-benchmark-results
           path: kg_results.json
           if-no-files-found: warn
+
+# Triggered via a short-lived PR so the connected GitHub App can cause an Actions event.
